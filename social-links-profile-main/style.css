@@ -17,6 +17,7 @@ img{
     align-items: center;
     justify-content: center;
     height: 100vh ;
+   
 }
 
 .container{
@@ -30,9 +31,7 @@ img{
     
 }
 
-.container > img{
-    /* border-left: 30px; */
-}
+
 
 .container .topinfo img{
     margin-left: 85px;
@@ -167,31 +166,41 @@ p{
 @media screen and (max-width:768px) {
 
     .container{
-        width: 40vw;
-        padding: 40px;
-        padding-top: 60px;
+        /* width: 40vw; */
+        width: 90vw;
+        /* padding: 40px;
+        padding-top: 60px; */
+        padding: 30px 10px;
+        height: fit-content;
         
     }
 
-    .container .topinfo img{
-        width: 100px;
+    .image{
+        width: 100%;
         /* margin-bottom: 70px; */
-        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        
         
     }
 
     .container .topinfo h2{
-        margin-left: 50px;
+        /* margin-left: 50px; */
         font-size: xx-large;
-        width: 30vw;
+        /* width: 30vw; */
     } 
 
     h2{
-        margin-bottom: 20px;
+    
+        margin: 20px 0 !important;
+        text-align: center;
     }
     
     .location{
-        margin-left: 45px;
+        /* margin-left: 45px; */
+        margin: 0 !important;
+        text-align: center;
+
     }
 
     .container .topinfo .location{
@@ -204,14 +213,30 @@ p{
         font-size: large;
     }
     
-
+  img{
+        border-radius: 50%;
+        /* width: 70px; */
+        width: 50%;
+        margin: 0 !important;
+        
+    }
     
+ p{
+    margin: 0 !important;
+    text-align: center;
+ }
+
+
+
+
+
+
+
     }
     
     
     
-
+  
 
     
     
-}
